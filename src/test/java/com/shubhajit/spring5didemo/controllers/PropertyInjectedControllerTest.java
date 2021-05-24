@@ -1,6 +1,6 @@
 package com.shubhajit.spring5didemo.controllers;
 
-import com.shubhajit.spring5didemo.services.GreetingServiceImpl;
+import com.shubhajit.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

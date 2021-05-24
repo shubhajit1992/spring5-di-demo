@@ -1,4 +1,4 @@
-package com.shubhajit.spring5didemo.services;
+package com.shubhajit.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
