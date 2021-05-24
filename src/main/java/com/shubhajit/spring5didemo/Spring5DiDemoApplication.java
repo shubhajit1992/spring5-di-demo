@@ -4,14 +4,12 @@ import com.shubhajit.spring5didemo.controllers.ConstructorInjectedController;
 import com.shubhajit.spring5didemo.controllers.MyController;
 import com.shubhajit.spring5didemo.controllers.PropertyInjectedController;
 import com.shubhajit.spring5didemo.controllers.SetterInjectedController;
-import com.shubhajit.services.GreetingServiceImpl;
+import com.shubhajit.spring5didemo.services.GreetingServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.shubhajit.services", "com.shubhajit.spring5didemo"})
 public class Spring5DiDemoApplication {
 
     public static void main(String[] args) {

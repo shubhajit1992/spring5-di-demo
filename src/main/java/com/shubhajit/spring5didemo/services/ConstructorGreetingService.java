@@ -1,4 +1,4 @@
-package com.shubhajit.services;
+package com.shubhajit.spring5didemo.services;
 
 import org.springframework.stereotype.Service;
 
