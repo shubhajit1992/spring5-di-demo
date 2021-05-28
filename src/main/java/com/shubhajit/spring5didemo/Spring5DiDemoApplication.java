@@ -5,6 +5,7 @@ import com.shubhajit.spring5didemo.controllers.MyController;
 import com.shubhajit.spring5didemo.controllers.PropertyInjectedController;
 import com.shubhajit.spring5didemo.controllers.SetterInjectedController;
 import com.shubhajit.spring5didemo.examplebeans.FakeDataSource;
+import com.shubhajit.spring5didemo.examplebeans.FakeJmsBroker;
 import com.shubhajit.spring5didemo.services.GreetingServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -29,6 +30,11 @@ public class Spring5DiDemoApplication {
         System.out.println(fakeDataSource.getUsername());
         System.out.println(fakeDataSource.getPassword());
         System.out.println(fakeDataSource.getUrl());
+
+        FakeJmsBroker fakeJmsBroker = applicationContext.getBean(FakeJmsBroker.class);
+        System.out.println(fakeJmsBroker.getUsername());
+        System.out.println(fakeJmsBroker.getPassword());
+        System.out.println(fakeJmsBroker.getUrl());
     }
 
 }
