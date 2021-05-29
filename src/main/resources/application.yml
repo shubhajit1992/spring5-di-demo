@@ -1,8 +1,11 @@
-spring:
-  profiles:
-    active: fr
-
 jms:
   username: admin
   password: admin
   url: mq://localhost:7676
+
+---
+spring:
+  profiles:
+    active: fr
+jms:
+  username: admin**In**French
